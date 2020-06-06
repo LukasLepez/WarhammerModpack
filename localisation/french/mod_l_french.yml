@@ -1,0 +1,43 @@
+﻿l_french:
+
+ # ###################################
+ # Traits
+ # ###################################
+
+ trait_immortal:0 "Empereur Dieu"
+ trait_immortal_desc:0 "L'Empereur de l'humanité est le Seigneur de l'Imperium et le Dieu de la race humaine. Il est un fragment éternel de l'Univers, à la fois étoile et maître des étoiles."
+ trait_war_effort:0 "Effort de guerre"
+ trait_war_effort_desc:0 "Afin d'alimenter la machine de guerre de l'Imperium chaque citoyen doit travailler sans relache."
+ trait_imperial_guard:0 "Garde impériale"
+ trait_imperial_guard_desc:0 "L'Impérium de l'humanité étant constamment en guerre. La majorité de la population est entrainer et envoyer de force dans la Garde Impérial afin d'alimenter les champs de bataille en sang neuf."
+ trait_fear_technology:0 "Peur de la technologie"
+ trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
+
+ # ###################################
+ # Species
+ # ###################################
+
+ SPECIES_CLASS_MUST_USE_IMPERIAL:0 "Requiert l'autorité §Y$auth_imperial$§!"
+ SPECIES_CLASS_MUST_USE_FANATIC_XENOPHOBE:0 "Requiert l'éthique §Y$ethic_fanatic_xenophobe$§!"
+ SPECIES_CLASS_MUST_USE_MILITARIST:0 "Requiert l'éthique §Y$ethic_militarist$§!"
+
+ HUMAN:0 "Humain"
+ HUMAN_desc:0 "A creature's Species Class has no effect on your Empire, but a X may consider other X's to be less alien than creatures of other Species Classes."
+ HUMAN_plural:0 "X"
+ HUMAN_adj:0 "X"
+ HUMAN_insult_01:0 "X"
+ HUMAN_insult_02:0 "X"
+ HUMAN_insult_plural_01:0 "X"
+ HUMAN_insult_plural_02:0 "X"
+ HUMAN_compliment_01:0 "X"
+ HUMAN_compliment_plural_01:0 "X"
+ HUMAN_spawn:0 "X"
+ HUMAN_spawn_plural:0 "X"
+ HUMAN_sound_01:0 "X"
+ HUMAN_sound_02:0 "X"
+ HUMAN_sound_03:0 "X"
+ HUMAN_sound_04:0 "X"
+ HUMAN_sound_05:0 "X"
+ HUMAN_organ:0 "X"
+ HUMAN_mouth:0 "X"
+ HUMAN_hand:0 "X"

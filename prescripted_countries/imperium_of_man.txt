@@ -1,0 +1,61 @@
+"Impérium de l'humanité" = {
+	name = "Impérium de l'humanité"
+	adjective = "Impérium de l'humanité"
+	ship_prefix = ""
+	species = {
+		class = "HUMAN"
+		portrait = "human"
+		name = "Humain"
+		plural = "Humains"
+		adjective = "Humain"
+		name_list = "HUMAN3"
+		trait = trait_immortal
+		trait = trait_war_effort
+		trait = trait_imperial_guard
+		trait = trait_fear_technology
+	}
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	civics = {
+		"civic_fanatic_purifiers"
+		"civic_distinguished_admiralty"
+	}
+	origin = "origin_default"
+	authority = "auth_imperial"
+	government = "gov_star_empire"
+	planet_name = "Terre"
+	planet_class = "pc_continental"
+	system_name = "Soleil"
+	initializer = "sol_system_initializer"
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = male
+		name = "L'Empereur de l'humanité"
+		portrait = "human_male_01"
+		texture = 0
+		hair = 6
+		clothes = 6
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	room = "personality_democratic_crusaders_room"
+	spawn_enabled = yes
+}
