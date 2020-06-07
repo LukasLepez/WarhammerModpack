@@ -11,7 +11,6 @@
 		name_list = "HUMAN3"
 		trait = trait_immortal
 		trait = trait_war_effort
-		trait = trait_imperial_guard
 		trait = trait_fear_technology
 	}
 	ethic = "ethic_fanatic_xenophobe"

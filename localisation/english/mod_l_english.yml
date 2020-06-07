@@ -6,12 +6,24 @@
 
  trait_immortal:0 "Emperor God"
  trait_immortal_desc:0 "The Emperor of man is the Lord of the Imperium and the God of the human race. He is an eternal fragment of the Universe, both star and master of the stars."
+
  trait_war_effort:0 "War effort"
  trait_war_effort_desc:0 "In order to power the Imperium's war machine,\ every citizen must work tirelessly."
+
  trait_imperial_guard:0 "Imperial guard"
  trait_imperial_guard_desc:0 "The Imperium of man being constantly at war. The majority of the population is trained and sent by force to the Imperial Guard in order to supply the battlefields with new blood."
+
  trait_fear_technology:0 "Fear of technology"
  trait_fear_technology_desc:0 "After the heresy of Horus, the Imperium of man to stop all technological advances for fear of bringing back chaos within its empire."
+
+ trait_inquisition:0 "Inquisition"
+ trait_inquisition_desc:0 "The Inquisition is an organization of the Imperium whose mission is to investigate and eradicate any enemy of the Emperor. Its role is essential for the protection of humanity."
+
+ trait_corruption_chaos:0 "Corruption of chaos"
+ trait_corruption_chaos_desc:0 "Chaotic, many heretics worship the chaos gods throughout the empire and threaten the stability of the Imperium."
+
+ trait_galactic_empire:0 "Galactic empire"
+ trait_galactic_empire_desc:0 "The Imperium is of inconceivable immensity and is particularly sparse, its worlds sometimes being separated by thousands of light years."
 
  # ###################################
  # Species

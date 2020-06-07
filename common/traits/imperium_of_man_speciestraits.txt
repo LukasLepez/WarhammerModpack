@@ -7,42 +7,13 @@ trait_immortal = {
 	allowed_archetypes = {
 		HUMAN
 	}
-	species_potential_add = {
-		always = no
-	}
-	species_possible_remove = {
-		always = no
-	}
 	modifier = {
 		ruler_skill_levels = 5
 	}
 }
 
-trait_war_effort = {
-	cost = 3
-	modification = no
-	randomized = no
-	initial = yes
-	icon = "gfx/interface/icons/traits/trait_robot_mass_produced.dds"
-	allowed_archetypes = {
-		HUMAN
-	}
-	species_potential_add = {
-		always = no
-	}
-	species_possible_remove = {
-		always = no
-	}
-	modifier = {
-		planet_jobs_alloys_produces_mult = 0.20
-		planet_jobs_minerals_produces_mult = 0.20
-		planet_jobs_energy_produces_mult = 0.20
-		pop_happiness = -0.5
-	}
-}
-
 trait_imperial_guard = {
-	cost = 2
+	cost = 1
 	modification = no
 	randomized = no
 	initial = yes
@@ -50,21 +21,75 @@ trait_imperial_guard = {
 	allowed_archetypes = {
 		HUMAN
 	}
-	species_potential_add = {
-		always = no
-	}
-	species_possible_remove = {
-		always = no
-	}
 	modifier = {
 		planet_army_build_speed_mult = 0.33
 		army_damage_mult = 0.33
-		army_morale = -0.66
+		army_collateral_damage_mult = 1
+		army_disengage_chance_mult = -1
+	}
+}
+
+trait_inquisition = {
+	cost = 1
+	modification = no
+	randomized = no
+	initial = yes
+	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	allowed_archetypes = {
+		HUMAN
+	}
+	species_potential_add = {
+		always = yes
+	}
+	species_possible_remove = {
+		always = yes
+	}
+	modifier = {
+		planet_stability_add = 20
+	}
+}
+
+trait_galactic_empire = {
+	cost = 2
+	modification = no
+	randomized = no
+	initial = yes
+	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	allowed_archetypes = {
+		HUMAN
+	}
+	species_potential_add = {
+		always = yes
+	}
+	species_possible_remove = {
+		always = yes
+	}
+	modifier = {
+		empire_size_mult = 0.2
+	}
+}
+
+trait_war_effort = {
+	cost = 2
+	modification = no
+	randomized = no
+	initial = yes
+	icon = "gfx/interface/icons/traits/trait_robot_mass_produced.dds"
+	allowed_archetypes = {
+		HUMAN
+	}
+	opposites = {
+		trait_corruption_chaos
+	}
+	modifier = {
+		planet_jobs_alloys_produces_mult = 0.15
+		planet_jobs_minerals_produces_mult = 0.15
+		planet_jobs_energy_produces_mult = 0.15
 	}
 }
 
 trait_fear_technology = {
-	cost = -3
+	cost = -1
 	modification = no
 	randomized = no
 	initial = yes
@@ -72,13 +97,34 @@ trait_fear_technology = {
 	allowed_archetypes = {
 		HUMAN
 	}
-	species_potential_add = {
-		always = no
-	}
-	species_possible_remove = {
-		always = no
-	}
 	modifier = {
 		all_technology_research_speed = -0.2
+	}
+}
+
+trait_corruption_chaos = {
+	cost = -2
+	modification = no
+	randomized = no
+	initial = yes
+	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	allowed_archetypes = {
+		HUMAN
+	}
+	species_potential_add = {
+		always = yes
+	}
+	species_possible_remove = {
+		always = yes
+	}
+	opposites = {
+		trait_war_effort
+	}
+	modifier = {
+		planet_jobs_alloys_produces_mult = -0.2
+		planet_jobs_minerals_produces_mult = -0.2
+		planet_jobs_energy_produces_mult = -0.2
+		planet_stability_add = -20
+		pop_happiness = -0.3
 	}
 }
