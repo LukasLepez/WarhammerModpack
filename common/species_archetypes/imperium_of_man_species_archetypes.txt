@@ -12,7 +12,7 @@
 @human_max_traits = 5
 @human_trait_points = 1
 
-HUMAN = { 
+IMPERIUM = { 
 	species_trait_points = @human_trait_points
 	species_max_traits = @human_max_traits
 }

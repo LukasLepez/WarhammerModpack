@@ -3,7 +3,7 @@
 	adjective = "Impérium de l'humanité"
 	ship_prefix = ""
 	species = {
-		class = "HUMAN"
+		class = "IMPERIUM"
 		portrait = "human"
 		name = "Humain"
 		plural = "Humains"

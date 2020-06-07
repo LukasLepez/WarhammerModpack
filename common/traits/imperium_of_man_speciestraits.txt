@@ -4,8 +4,9 @@ trait_immortal = {
 	randomized = no
 	initial = yes
 	immortal_leaders = yes
+	icon = "gfx/interface/icons/governments/civics/civic_imperial_cult.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	modifier = {
 		ruler_skill_levels = 5
@@ -19,7 +20,7 @@ trait_imperial_guard = {
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_warrior_culture.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	modifier = {
 		planet_army_build_speed_mult = 0.33
@@ -34,9 +35,9 @@ trait_inquisition = {
 	modification = no
 	randomized = no
 	initial = yes
-	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_citizen_service.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	species_potential_add = {
 		always = yes
@@ -54,9 +55,9 @@ trait_galactic_empire = {
 	modification = no
 	randomized = no
 	initial = yes
-	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_efficient_bureaucracy.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	species_potential_add = {
 		always = yes
@@ -74,9 +75,9 @@ trait_war_effort = {
 	modification = no
 	randomized = no
 	initial = yes
-	icon = "gfx/interface/icons/traits/trait_robot_mass_produced.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_corvee_system.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	opposites = {
 		trait_corruption_chaos
@@ -95,7 +96,7 @@ trait_fear_technology = {
 	initial = yes
 	icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	modifier = {
 		all_technology_research_speed = -0.2
@@ -107,9 +108,9 @@ trait_corruption_chaos = {
 	modification = no
 	randomized = no
 	initial = yes
-	# icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
+	icon = "gfx/interface/icons/traits/trait_indolent.dds"
 	allowed_archetypes = {
-		HUMAN
+		IMPERIUM
 	}
 	species_potential_add = {
 		always = yes
