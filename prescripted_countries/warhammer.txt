@@ -1,10 +1,10 @@
 "Impérium de l'humanité" = {
-	name = "Impérium de l'humanité"
-	adjective = "Impérium de l'humanité"
+	name = "Imperium"
+	adjective = "Imperium"
 	ship_prefix = ""
 	species = {
 		class = "IMPERIUM"
-		portrait = "human"
+		portrait = "imperium"
 		name = "Humain"
 		plural = "Humains"
 		adjective = "Humain"
@@ -47,7 +47,7 @@
 	ruler = {
 		gender = male
 		name = "L'Empereur de l'humanité"
-		portrait = "human_male_01"
+		portrait = "imperium"
 		texture = 0
 		hair = 6
 		clothes = 6

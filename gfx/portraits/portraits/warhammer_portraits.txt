@@ -1,0 +1,16 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+##############################################################
+### Settings for character portrait
+portraits = {
+	imperium = {
+		texturefile = "gfx/models/portraits/emperor_of_man.dds"
+	}
+}
