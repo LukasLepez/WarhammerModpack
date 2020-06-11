@@ -28,16 +28,16 @@
 	initializer = "sol_system_initializer"
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
-	empire_flag = {
-		icon = {
-			category = "pointy"
-			file = "flag_pointy_2.dds"
+	empire_flag={
+		icon={
+			category="imperium"
+			file="imperium.dds"
 		}
-		background = {
-			category = "backgrounds"
-			file = "v.dds"
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
 		}
-		colors = {
+		colors={
 			"red"
 			"black"
 			"null"

@@ -1,34 +1,6 @@
 ﻿l_french:
 
  # ###################################
- # Traits
- # ###################################
-
- trait_immortal:0 "Empereur Dieu"
- trait_immortal_desc:0 "L'Empereur de l'humanité est le Seigneur de l'Imperium et le Dieu de la race humaine. Il est un fragment éternel de l'Univers, à la fois étoile et maître des étoiles."
-
- trait_war_effort:0 "Effort de guerre"
- trait_war_effort_desc:0 "Afin d'alimenter la machine de guerre de l'Imperium chaque citoyen doit travailler sans relache."
-
- trait_imperial_guard:0 "Garde impériale"
- trait_imperial_guard_desc:0 "L'Impérium de l'humanité étant constamment en guerre. La majorité de la population est entrainer et envoyer de force dans la Garde Impérial afin d'alimenter les champs de bataille en sang neuf."
-
- trait_fear_technology:0 "Peur de la technologie"
- trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
-
- trait_inquisition:0 "Inquisition"
- trait_inquisition_desc:0 "L'Inquisition est une organisation de l'Imperium qui a pour mission d'enquêter et d'éradiquer tout ennemi de l'Empereur. Son rôle est primordial pour la protection de l'humanité."
-
- trait_corruption_chaos:0 "Corruption du chaos"
- trait_corruption_chaos_desc:0 "En proie au chaos, de nombreux hérétiques vouent un culte obscure dans tout l'empire aux dieux du chaos et menace la stabilité de l'Imperium."
-
- trait_galactic_empire:0 "Empire galactique"
- trait_galactic_empire_desc:0 "L'Imperium est d'une immensité inconcevable et est particulièrement épars, ses mondes étant parfois séparés par des milliers d'années-lumière."
-
- trait_isolated_colony:0 "Colonie isolé"
- trait_isolated_colony_desc:0 ""
-
- # ###################################
  # Species
  # ###################################
 
@@ -56,3 +28,39 @@
  IMPERIUM_organ:0 "X"
  IMPERIUM_mouth:0 "X"
  IMPERIUM_hand:0 "X"
+
+
+ # ###################################
+ # Flags
+ # ###################################
+
+ FLAG_CATEGORY_imperium:0 "Imperium"
+
+
+ # ###################################
+ # Traits
+ # ###################################
+
+ trait_immortal:0 "Empereur Dieu"
+ trait_immortal_desc:0 "L'Empereur de l'humanité est le Seigneur de l'Imperium et le Dieu de la race humaine. Il est un fragment éternel de l'Univers, à la fois étoile et maître des étoiles."
+
+ trait_war_effort:0 "Effort de guerre"
+ trait_war_effort_desc:0 "Afin d'alimenter la machine de guerre de l'Imperium chaque citoyen doit travailler sans relache."
+
+ trait_imperial_guard:0 "Garde impériale"
+ trait_imperial_guard_desc:0 "L'Impérium de l'humanité étant constamment en guerre. La majorité de la population est entrainer et envoyer de force dans la Garde Impérial afin d'alimenter les champs de bataille en sang neuf."
+
+ trait_fear_technology:0 "Peur de la technologie"
+ trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
+
+ trait_inquisition:0 "Inquisition"
+ trait_inquisition_desc:0 "L'Inquisition est une organisation de l'Imperium qui a pour mission d'enquêter et d'éradiquer tout ennemi de l'Empereur. Son rôle est primordial pour la protection de l'humanité."
+
+ trait_corruption_chaos:0 "Corruption du chaos"
+ trait_corruption_chaos_desc:0 "En proie au chaos, de nombreux hérétiques vouent un culte obscure dans tout l'empire aux dieux du chaos et menace la stabilité de l'Imperium."
+
+ trait_galactic_empire:0 "Empire galactique"
+ trait_galactic_empire_desc:0 "L'Imperium est d'une immensité inconcevable et est particulièrement épars, ses mondes étant parfois séparés par des milliers d'années-lumière."
+
+ trait_isolated_colony:0 "Colonie isolé"
+ trait_isolated_colony_desc:0 ""
