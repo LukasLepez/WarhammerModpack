@@ -9,8 +9,8 @@
 #	inherit_traits_from = { BIOLOGICAL ROBOT } 
 #}
 
-@human_max_traits = 5
-@human_trait_points = 1
+@human_max_traits = 4
+@human_trait_points = 0
 
 IMPERIUM = { 
 	species_trait_points = @human_trait_points

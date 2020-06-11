@@ -25,6 +25,9 @@
  trait_galactic_empire:0 "Galactic empire"
  trait_galactic_empire_desc:0 "The Imperium is of inconceivable immensity and is particularly sparse, its worlds sometimes being separated by thousands of light years."
 
+ trait_isolated_colony:0 "Isolated colony"
+ trait_isolated_colony_desc:0 ""
+
  # ###################################
  # Species
  # ###################################

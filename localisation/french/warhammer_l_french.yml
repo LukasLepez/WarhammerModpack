@@ -25,6 +25,9 @@
  trait_galactic_empire:0 "Empire galactique"
  trait_galactic_empire_desc:0 "L'Imperium est d'une immensité inconcevable et est particulièrement épars, ses mondes étant parfois séparés par des milliers d'années-lumière."
 
+ trait_isolated_colony:0 "Colonie isolé"
+ trait_isolated_colony_desc:0 ""
+
  # ###################################
  # Species
  # ###################################

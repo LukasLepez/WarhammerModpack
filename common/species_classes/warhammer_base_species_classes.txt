@@ -32,10 +32,12 @@ IMPERIUM = {
 	}
 	portraits = {
 		"imperium"
+		"human"
 	}
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
 		"imperium"
+		"human"
 	}
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"

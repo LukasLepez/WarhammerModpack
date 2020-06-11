@@ -1,3 +1,7 @@
+############################
+### Imperium
+############################
+
 trait_immortal = {
 	cost = 0
 	modification = no
@@ -45,13 +49,16 @@ trait_inquisition = {
 	species_possible_remove = {
 		always = yes
 	}
+	opposites = {
+		trait_corruption_chaos
+	}
 	modifier = {
 		planet_stability_add = 20
 	}
 }
 
 trait_galactic_empire = {
-	cost = 2
+	cost = 1
 	modification = no
 	randomized = no
 	initial = yes
@@ -66,12 +73,12 @@ trait_galactic_empire = {
 		always = yes
 	}
 	modifier = {
-		empire_size_mult = 0.2
+		country_admin_cap_mult = 0.2
 	}
 }
 
 trait_war_effort = {
-	cost = 2
+	cost = 1
 	modification = no
 	randomized = no
 	initial = yes
@@ -104,7 +111,7 @@ trait_fear_technology = {
 }
 
 trait_corruption_chaos = {
-	cost = -2
+	cost = -1
 	modification = no
 	randomized = no
 	initial = yes
@@ -120,12 +127,32 @@ trait_corruption_chaos = {
 	}
 	opposites = {
 		trait_war_effort
+		trait_inquisition
 	}
 	modifier = {
 		planet_jobs_alloys_produces_mult = -0.2
 		planet_jobs_minerals_produces_mult = -0.2
 		planet_jobs_energy_produces_mult = -0.2
 		planet_stability_add = -20
-		pop_happiness = -0.3
+	}
+}
+
+trait_isolated_colony = {
+	cost = -1
+	modification = no
+	randomized = no
+	initial = yes
+	icon = "gfx/interface/icons/traits/trait_solitary.dds"
+	allowed_archetypes = {
+		IMPERIUM
+	}
+	species_potential_add = {
+		always = yes
+	}
+	species_possible_remove = {
+		always = yes
+	}
+	modifier = {
+		planet_colony_development_speed_mult = -0.8
 	}
 }
