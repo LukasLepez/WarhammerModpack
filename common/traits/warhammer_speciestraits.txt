@@ -34,6 +34,24 @@ trait_imperial_guard = {
 	}
 }
 
+trait_imperial_fleet = {
+	cost = 1
+	modification = no
+	randomized = no
+	initial = yes
+	icon = "gfx/interface/icons/governments/civics/civic_warrior_culture.dds"
+	allowed_archetypes = {
+		IMPERIUM
+	}
+	modifier = {
+		shipsize_corvette_build_speed_mult = 0.33
+		shipsize_cruiser_build_speed_mult = 0.33
+		shipsize_destroyer_build_speed_mult = 0.33
+		ship_weapon_damage = 0.33
+		ship_disengage_chance_mult = -1
+	}
+}
+
 trait_inquisition = {
 	cost = 1
 	modification = no
@@ -73,7 +91,7 @@ trait_galactic_empire = {
 		always = yes
 	}
 	modifier = {
-		country_admin_cap_mult = 0.2
+		country_claim_influence_cost_mult = -0.50
 	}
 }
 
@@ -153,6 +171,6 @@ trait_isolated_colony = {
 		always = yes
 	}
 	modifier = {
-		planet_colony_development_speed_mult = -0.8
+		planet_colony_development_speed_mult = -0.6
 	}
 }

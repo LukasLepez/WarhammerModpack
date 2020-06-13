@@ -47,8 +47,11 @@
  trait_war_effort:0 "Effort de guerre"
  trait_war_effort_desc:0 "Afin d'alimenter la machine de guerre de l'Imperium chaque citoyen doit travailler sans relache."
 
- trait_imperial_guard:0 "Garde impériale"
+ trait_imperial_guard:0 "Garde Impériale"
  trait_imperial_guard_desc:0 "L'Impérium de l'humanité étant constamment en guerre. La majorité de la population est entrainer et envoyer de force dans la Garde Impérial afin d'alimenter les champs de bataille en sang neuf."
+
+ trait_imperial_fleet:0 "Flotte Impériale"
+ trait_imperial_fleet_desc:0 "La Flotte Impériale est une des forces armée employé par l’Imperium. Tandis que la Garde Impériale est responsable des opérations au sol, la Flotte Impériale est responsable des flottes et vaisseaux de guerre qui ont pour rôle joué des opérations et des communications entre les planètes de l'Imperium, ainsi que de repousser les menaces intérieures et extérieures des zones de contrôles de l'Imperium."
 
  trait_fear_technology:0 "Peur de la technologie"
  trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
