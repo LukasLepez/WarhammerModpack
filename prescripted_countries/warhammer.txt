@@ -49,8 +49,8 @@
 		name = " de l'humanité"
 		portrait = "imperium"
 		texture = 0
-		hair = 6
-		clothes = 6
+		hair = 0
+		clothes = 0
 		leader_class = "ruler"
 	}
 	spawn_as_fallen = no

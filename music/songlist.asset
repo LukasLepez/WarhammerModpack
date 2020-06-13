@@ -1,0 +1,47 @@
+music = {
+	name = "Chaos Approaches"
+	file = "01-Chaos-Approaches.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Assemble the Fleet"
+	file = "02-Assemble-the-Fleet.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "The War Room"
+	file = "03-The-War-Room.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "The Master Plan"
+	file = "04-The-Master-Plan.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Orks On Da Move"
+	file = "05-Orks-On-Da-Move.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Brace for Impact"
+	file = "06-Brace-for-Impact.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Attack Without Mercy"
+	file = "07-Attack-Without-Mercy.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "For The Glory Of The Emporer"
+	file = "08-For-The-Glory-Of-The-Emporer.ogg"
+	volume = 0.5
+}
