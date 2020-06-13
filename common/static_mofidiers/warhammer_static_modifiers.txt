@@ -1,3 +1,0 @@
-trait_galactic_empire = {
-	
-}
