@@ -1,0 +1,30 @@
+space_marines = {
+	damage = 10
+	health = 10
+	morale = 100
+	morale_damage = 3.00
+	collateral_damage = 3
+	war_exhaustion = 1.15
+	time = 500
+	icon_frame = 2
+	prerequisites = { "tech_space_marines" }
+	resources = {
+		category = armies
+		cost = {
+			energy = 2000
+			minerals = 1000
+			alloys = 500
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	show_tech_unlock_if = {
+		has_ethic = ethic_fanatic_xenophobe
+		has_ethic = ethic_militarist
+		has_authority = auth_imperial
+		has_trait = trait_immortal
+	}
+}

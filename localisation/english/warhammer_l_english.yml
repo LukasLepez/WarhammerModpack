@@ -66,4 +66,18 @@
  trait_galactic_empire_desc:0 "The Imperium is of inconceivable immensity and is particularly sparse, its worlds sometimes being separated by thousands of light years."
 
  trait_isolated_colony:0 "Isolated colony"
- trait_isolated_colony_desc:0 ""
+ trait_isolated_colony_desc:0 "The numerous storm warp mixed with the war effort of the Imperium and the colossal distances separating each planet from the Imperium slows down the development of this one enormously."
+
+ # ###################################
+ # Tech
+ # ###################################
+
+ tech_space_marines:0 "Space Marines"
+ tech_space_marines_desc:0 "The genetic technology of the Imperium allows the creation of genetically modified warriors including the genome and based on that of the primarchs."
+
+ # ###################################
+ # Armies
+ # ###################################
+
+ space_marines:0 "Space Marines"
+ space_marines_desc:0 "Adeptus Astartes space marines are the most powerful human beings in the galaxy."

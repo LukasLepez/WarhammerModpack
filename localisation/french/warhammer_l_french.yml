@@ -66,4 +66,18 @@
  trait_galactic_empire_desc:0 "L'Imperium est d'une immensité inconcevable et est particulièrement épars, ses mondes étant parfois séparés par des milliers d'années-lumière."
 
  trait_isolated_colony:0 "Colonie isolé"
- trait_isolated_colony_desc:0 ""
+ trait_isolated_colony_desc:0 "Les nombreuses tempête warp mêlée à l’effort de guerre de l'Imperium et aux distances colossales séparant chaque planètes de l'Imperium ralentissent énormément le développement de celle-ci."
+
+ # ###################################
+ # Tech
+ # ###################################
+
+ tech_space_marines:0 "Space Marines"
+ tech_space_marines_desc:0 "La technologie génétique de l'Imperium permet la création de guerriers génétiquements modifiés dont le génome et basé sur celui des primarques."
+
+ # ###################################
+ # Armies
+ # ###################################
+
+ space_marines:0 "Space Marines"
+ space_marines_desc:0 "Les space marines de l'Adeptus Astartes sont les êtres humains les plus puissants de la galaxie."
