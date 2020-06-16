@@ -29,7 +29,6 @@
  IMPERIUM_mouth:0 "X"
  IMPERIUM_hand:0 "X"
 
-
  # ###################################
  # Flags
  # ###################################
@@ -71,6 +70,18 @@
  # ###################################
  # Tech
  # ###################################
+
+ tech_intensive_training_1:0 "Intensive training I"
+ tech_intensive_training_1_desc:0 ""
+
+ tech_intensive_training_2:0 "Intensive training II"
+ tech_intensive_training_2_desc:0 ""
+
+ tech_intensive_training_3:0 "Intensive training III"
+ tech_intensive_training_3_desc:0 ""
+
+ tech_intensive_training_4:0 "Intensive training IV"
+ tech_intensive_training_4_desc:0 ""
 
  tech_space_marines:0 "Space Marines"
  tech_space_marines_desc:0 "The genetic technology of the Imperium allows the creation of genetically modified warriors including the genome and based on that of the primarchs."

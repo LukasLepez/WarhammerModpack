@@ -72,6 +72,18 @@
  # Tech
  # ###################################
 
+ tech_intensive_training_1:0 "Entrainement intensif I"
+ tech_intensive_training_1_desc:0 ""
+
+ tech_intensive_training_2:0 "Entrainement intensif II"
+ tech_intensive_training_2_desc:0 ""
+
+ tech_intensive_training_3:0 "Entrainement intensif III"
+ tech_intensive_training_3_desc:0 ""
+
+ tech_intensive_training_4:0 "Entrainement intensif IV"
+ tech_intensive_training_4_desc:0 ""
+
  tech_space_marines:0 "Space Marines"
  tech_space_marines_desc:0 "La technologie génétique de l'Imperium permet la création de guerriers génétiquements modifiés dont le génome et basé sur celui des primarques."
 

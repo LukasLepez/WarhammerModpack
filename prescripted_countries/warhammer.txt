@@ -22,9 +22,9 @@
 	origin = "origin_default"
 	authority = "auth_imperial"
 	government = "gov_star_empire"
-	planet_name = "Terre"
+	planet_name = "PRESCRIPTED_planet_name_imperium"
 	planet_class = "pc_continental"
-	system_name = "Soleil"
+	system_name = "PRESCRIPTED_system_name_imperium"
 	initializer = "sol_system_initializer"
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
@@ -45,8 +45,9 @@
 		}
 	}
 	ruler = {
+		ruler_title = "PRESCRIPTED_ruler_title_imperium"
 		gender = male
-		name = " de l'humanité"
+		name = "PRESCRIPTED_ruler_name_imperium"
 		portrait = "imperium"
 		texture = 0
 		hair = 0

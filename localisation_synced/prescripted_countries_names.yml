@@ -1,0 +1,11 @@
+﻿l_default:
+ PRESCRIPTED_ruler_title_imperium:0 "The"
+ PRESCRIPTED_ruler_name_imperium:0 "Emperor of Man"
+ PRESCRIPTED_planet_name_imperium:0 "Terra"
+ PRESCRIPTED_system_name_imperium:0 "Sol"
+
+l_french:
+ PRESCRIPTED_ruler_title_imperium:0 "L'"
+ PRESCRIPTED_ruler_name_imperium:0 "Empereur de l'humanité"
+ PRESCRIPTED_planet_name_imperium:0 "Terra"
+ PRESCRIPTED_system_name_imperium:0 "Soleil"

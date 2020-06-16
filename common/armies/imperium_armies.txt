@@ -1,23 +1,30 @@
 space_marines = {
-	damage = 10
+	damage = 8
 	health = 10
-	morale = 100
-	morale_damage = 3.00
-	collateral_damage = 3
-	war_exhaustion = 1.15
-	time = 500
+	morale_damage = 2.00
+	has_morale = no
+	collateral_damage = 3.00
+	war_exhaustion = 5.00
+	time = 300
 	icon_frame = 2
 	prerequisites = { "tech_space_marines" }
 	resources = {
 		category = armies
 		cost = {
-			energy = 2000
-			minerals = 1000
+			society_research = 5000
+			energy = 2500
 			alloys = 500
+			minerals = 500
+			rare_crystals = 500
+			exotic_gases = 500
+			volatile_motes = 500
 		}
 
 		upkeep = {
 			energy = 10
+			rare_crystals = 1
+			exotic_gases = 1
+			volatile_motes = 1
 		}
 	}
 

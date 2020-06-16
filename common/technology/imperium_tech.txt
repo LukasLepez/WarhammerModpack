@@ -1,19 +1,19 @@
-tech_space_marines = {
-	cost = @tier4cost1
+tech_intensive_training_1 = {
+	cost = @tier1cost3
 	area = society
 	category = { military_theory }
 	tier = 1
-	weight = @tier4weight2
+	weight = @tier1weight3
 
 	modifier = {
+		army_attack_damage_mult = 0.05
+		army_morale = 0.05
 	}
 	
 	weight_modifier = {
 		modifier = {
-			factor = 10
-			any_neighbor_country = {
-				has_technology = tech_space_marines
-			}
+			factor = 1.25
+			has_trait = trait_imperial_guard
 		}
 
 		modifier = {
@@ -28,7 +28,168 @@ tech_space_marines = {
 	# ai_weight = {
 	# 	factor = 80
 	# 	modifier = {
-	# 		factor = 1.25
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_intensive_training_2 = {
+	cost = @tier2cost3
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_intensive_training_1"
+	}
+	tier = 1
+	weight = @tier2weight3
+
+	modifier = {
+		army_attack_damage_mult = 0.1
+		army_morale = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_trait = trait_imperial_guard
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_intensive_training_3 = {
+	cost = @tier3cost3
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_intensive_training_2"
+	}
+	tier = 1
+	weight = @tier3weight3
+
+	modifier = {
+		army_attack_damage_mult = 0.2
+		army_morale = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_trait = trait_imperial_guard
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_intensive_training_4 = {
+	cost = @tier4cost3
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_intensive_training_2"
+	}
+	tier = 1
+	weight = @tier4weight3
+
+	modifier = {
+		army_attack_damage_mult = 0.4
+		army_morale = 0.4
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_trait = trait_imperial_guard
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_space_marines = {
+	cost = @tier5cost3
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_intensive_training_3"
+	}
+	tier = 1
+	weight = @tier5weight3
+
+	modifier = {
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
 	# 		research_leader = {
 	# 			area = society
 	# 			has_trait = "leader_trait_expertise_military_theory"
