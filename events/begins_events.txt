@@ -1,0 +1,68 @@
+namespace = begins_events
+
+country_event = {
+	id = begins_events.00
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = begins_events.01 }
+		}
+	}
+}
+
+country_event = {
+	id = begins_events.01
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { 
+				has_trait = trait_immortal
+			}
+			every_owned_leader = {
+				limit = { leader_class = ruler }
+				remove_trait = trait_ruler_architectural_sense
+				remove_trait = trait_ruler_battleship_focus
+				remove_trait = trait_ruler_champion_of_the_people
+				remove_trait = trait_ruler_charismatic
+				remove_trait = trait_ruler_corvette_focus
+				remove_trait = trait_ruler_cruiser_focus
+				remove_trait = trait_ruler_deep_connections
+				remove_trait = trait_ruler_destroyer_focus
+				remove_trait = trait_ruler_expansionist
+				remove_trait = trait_ruler_explorer
+				remove_trait = trait_ruler_eye_for_talent
+				remove_trait = trait_ruler_fertility_preacher
+				remove_trait = leader_trait_fleet_organizer
+				remove_trait = trait_ruler_fortifier
+				remove_trait = trait_ruler_from_the_ranks
+				remove_trait = trait_ruler_frontier_spirit
+				remove_trait = trait_ruler_home_in_the_sky
+				remove_trait = trait_ruler_industrialist
+				remove_trait = trait_ruler_investor
+				remove_trait = trait_ruler_logistic_understanding
+				remove_trait = trait_ruler_military_pioneer
+				remove_trait = leader_trait_nervous
+				remove_trait = trait_ruler_recruiter
+				remove_trait = leader_trait_reformer
+				remove_trait = trait_ruler_space_miner
+				remove_trait = trait_ruler_warlike
+				remove_trait = trait_ruler_world_shaper
+				remove_trait = leader_trait_adaptable
+				remove_trait = leader_trait_eager
+				remove_trait = leader_trait_resilient
+			}
+			leader = {
+				add_experience = 18000
+				add_trait = trait_ruler_expansionist
+				add_trait = trait_ruler_military_pioneer
+			}
+		}
+	}
+}
