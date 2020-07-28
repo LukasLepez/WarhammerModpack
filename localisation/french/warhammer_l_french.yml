@@ -1,6 +1,23 @@
 ﻿l_french:
 
  # ###################################
+ # Origin
+ # ###################################
+
+ origin_unification_war:0 "Guerre d'unification"
+ origin_unification_war_desc:0 "Dès ces prémices, l'Empereur S'entoura des guerriers génétiquement modifiés qui allaient devenir les Space Marines. Ces troupes surhumaines prirent facilement le dessus lors des Guerres d'Unification, soumirent tous leurs opposants terriens et forcèrent les Technoprêtres de Mars à demander la paix."
+ origin_unification_war_effects:0 "Commence avec le §YTrône d'Or§\n\n"
+ 
+
+ # ###################################
+ # System
+ # ###################################
+
+ sol_system_initializer_imperium_NAME:0 "Système de l'Imperium"
+ sol_system_initializer_imperium_DESC:0 "Le Système Sol est composé de 8 planètes tournant autour de l'étoile Sol. Il inclut également les satellites de ces planètes, ainsi qu'un certain nombre de comètes et d'astéroïdes. Toutes les planètes du système ont des orbites circulaires très proches les unes des autres, et tournent autour de Sol dans le sens inverse des aiguilles d'une montre. Toutes ou presque gravitent sur un même plan appelé écliptique, et leur axe de rotation est presque perpendiculaire à ce plan."
+
+
+ # ###################################
  # Species
  # ###################################
 
@@ -51,22 +68,40 @@
  trait_imperial_guard_desc:0 "L'Impérium de l'humanité étant constamment en guerre. La majorité de la population est entrainer et envoyer de force dans la Garde Impérial afin d'alimenter les champs de bataille en sang neuf."
 
  trait_imperial_fleet:0 "Flotte Impériale"
- trait_imperial_fleet_desc:0 "La Flotte Impériale est une des forces armée employé par l’Imperium. Tandis que la Garde Impériale est responsable des opérations au sol, la Flotte Impériale est responsable des flottes et vaisseaux de guerre qui ont pour rôle joué des opérations et des communications entre les planètes de l'Imperium, ainsi que de repousser les menaces intérieures et extérieures des zones de contrôles de l'Imperium."
+ trait_imperial_fleet_desc:0 "La Flotte Impériale est une des forces armée employé par l'Imperium. Tandis que la Garde Impériale est responsable des opérations au sol, la Flotte Impériale est responsable des flottes et vaisseaux de guerre qui ont pour rôle joué des opérations et des communications entre les planètes de l'Imperium, ainsi que de repousser les menaces intérieures et extérieures des zones de contrôles de l'Imperium."
 
  trait_fear_technology:0 "Peur de la technologie"
- trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
+ trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire.\n\n§WVitesse de Recherche : §R-20%§!\n"
 
  trait_inquisition:0 "Inquisition"
  trait_inquisition_desc:0 "L'Inquisition est une organisation de l'Imperium qui a pour mission d'enquêter et d'éradiquer tout ennemi de l'Empereur. Son rôle est primordial pour la protection de l'humanité."
 
  trait_corruption_chaos:0 "Corruption du chaos"
- trait_corruption_chaos_desc:0 "En proie au chaos, de nombreux hérétiques vouent un culte obscure dans tout l'empire aux dieux du chaos et menace la stabilité de l'Imperium."
+ trait_corruption_chaos_desc:0 "En proie au chaos, de nombreux hérétiques vouent un culte obscure dans tout l'empire aux dieux du chaos et menace la stabilité de l'Imperium.\n\n§WProduction d'£alloys£ alliages par les £job£ emplois: §R-15%§!\n§W£minerals£Minerais produit par les £job£ emplois: §R-15%§!\n§W£energy£Énergie produite par les £job£ emplois: §R-15%§!\n§WStabilité: §R-20§!\n"
 
  trait_galactic_empire:0 "Empire galactique"
  trait_galactic_empire_desc:0 "L'Imperium est d'une immensité inconcevable et est particulièrement épars, ses mondes étant parfois séparés par des milliers d'années-lumière."
 
  trait_isolated_colony:0 "Colonie isolé"
- trait_isolated_colony_desc:0 "Les nombreuses tempête warp mêlée à l’effort de guerre de l'Imperium et aux distances colossales séparant chaque planètes de l'Imperium ralentissent énormément le développement de celle-ci."
+ trait_isolated_colony_desc:0 "Les nombreuses tempête warp mêlée à l'effort de guerre de l'Imperium et aux distances colossales séparant chaque planètes de l'Imperium ralentissent énormément le développement de celle-ci.\n\n§WVitesse de Développement des Colonies : §R-60%§!\n"
+
+ 
+ # ###################################
+ # Modifier
+ # ###################################
+
+ wear_trait_fear_technology:0 "Peur de la technologie"
+ wear_trait_fear_technology_desc:0 "Après l'hérésie d'Horus, l'Impérium de l'humanité à cesser toutes avancés technologiques de peur de faire revenir le chaos au sein de son empire."
+
+ wear_trait_corruption_chaos:0 "Corruption du chaos"
+ wear_trait_inquisition_desc:0 "En proie au chaos, de nombreux hérétiques vouent un culte obscure dans tout l'empire aux dieux du chaos et menace la stabilité de l'Imperium."
+
+ wear_trait_isolated_colony:0 "Colonie isolé"
+ wear_trait_isolated_colony_desc:0 "Les nombreuses tempête warp mêlée à l'effort de guerre de l'Imperium et aux distances colossales séparant chaque planètes de l'Imperium ralentissent énormément le développement de celle-ci."
+
+ planet_mars:0 "Adeptus Mechanicus"
+ planet_mars_desc:0 ""
+
 
  # ###################################
  # Tech
@@ -85,11 +120,53 @@
  tech_intensive_training_4_desc:0 ""
 
  tech_space_marines:0 "Space Marines"
- tech_space_marines_desc:0 "La technologie génétique de l'Imperium permet la création de guerriers génétiquements modifiés dont le génome et basé sur celui des primarques."
+ tech_space_marines_desc:0 "Les Space Marines sont les guerriers suprêmes de l'Imperium. Ce sont des surhommes, modifiés génétiquement pour devenir des combattants d'exception, aussi éloigné de l'homme que l'acier l'est de l'argile, ils sont incommensurablement plus forts et plus robustes que des êtres humains ordinaires."
+
+ tech_ultramarines:0 "Ultramarines"
+ tech_ultramarines_desc:0 "Les Ultramarines sont de puissants guerriers et d'excellents tacticiens. Ce sont tous à la fois des croisés et des protecteurs qui incarnent la perfection des Space Marines, non seulement par leurs actes de bravoure, mais aussi par leur stricte respect des préceptes du Codex Astartes."
+
+ tech_military_equipment_1:0 "Equipement militaire I"
+ tech_military_equipment_1_desc:0 ""
+
+ tech_military_equipment_2:0 "Equipement militaire II"
+ tech_military_equipment_2_desc:0 ""
+
+ tech_military_equipment_3:0 "Equipement militaire III"
+ tech_military_equipment_3_desc:0 ""
+
+ tech_military_equipment_4:0 "Equipement militaire IV"
+ tech_military_equipment_4_desc:0 ""
+
+ tech_military_equipment_5:0 "Equipement militaire V"
+ tech_military_equipment_5_desc:0 ""
+
+ tech_military_equipment_6:0 "Equipement militaire VI"
+ tech_military_equipment_6_desc:0 ""
+
+ tech_military_equipment_7:0 "Equipement militaire VII"
+ tech_military_equipment_7_desc:0 ""
+
+ tech_military_equipment_8:0 "Equipement militaire VIII"
+ tech_military_equipment_8_desc:0 ""
+
+ tech_military_equipment_9:0 "Equipement militaire IX"
+ tech_military_equipment_9_desc:0 ""
+
+
+ # ###################################
+ # Buildings
+ # ###################################
+
+ building_golden_throne:0 "Trône d'Or"
+ building_golden_throne_desc:0 ""
+
 
  # ###################################
  # Armies
  # ###################################
 
  space_marines:0 "Space Marines"
- space_marines_desc:0 "Les space marines de l'Adeptus Astartes sont les êtres humains les plus puissants de la galaxie."
+ space_marines_desc:0 "Les Space Marines sont les guerriers suprêmes de l'Imperium. Ce sont des surhommes, modifiés génétiquement pour devenir des combattants d'exception, aussi éloigné de l'homme que l'acier l'est de l'argile, ils sont incommensurablement plus forts et plus robustes que des êtres humains ordinaires."
+
+ ultramarines:0 "Ultramarines"
+ ultramarines_desc:0 "Les Ultramarines sont de puissants guerriers et d'excellents tacticiens. Ce sont tous à la fois des croisés et des protecteurs qui incarnent la perfection des Space Marines, non seulement par leurs actes de bravoure, mais aussi par leur stricte respect des préceptes du Codex Astartes."

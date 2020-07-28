@@ -1,0 +1,69 @@
+#Some traits use empire range. We use these events to cheat the modifiers into traits.
+
+namespace = warhammer_traits
+
+event = {
+    id = warhammer_traits.1
+    hide_window = yes
+    is_triggered_only = yes
+   
+    immediate = {
+        every_country = {
+            limit = {
+				AND = {
+					NOT = { has_country_flag = flag_trait_isolated_colony }
+					has_trait = trait_isolated_colony
+				}
+            }
+            add_modifier = {
+                modifier = wear_trait_isolated_colony
+                days = -1
+            }
+			set_country_flag = flag_trait_isolated_colony
+        }
+	}
+}
+
+event = {
+    id = warhammer_traits.2
+    hide_window = yes
+    is_triggered_only = yes
+   
+    immediate = {
+        every_country = {
+            limit = {
+				AND = {
+					NOT = { has_country_flag = flag_trait_fear_technology }
+					has_trait = trait_fear_technology
+				}
+            }
+            add_modifier = {
+                modifier = wear_trait_fear_technology
+                days = -1
+            }
+			set_country_flag = flag_trait_fear_technology
+        }
+	}
+}
+
+event = {
+    id = warhammer_traits.3
+    hide_window = yes
+    is_triggered_only = yes
+   
+    immediate = {
+        every_country = {
+            limit = {
+				AND = {
+					NOT = { has_country_flag = flag_trait_corruption_chaos }
+					has_trait = trait_corruption_chaos
+				}
+            }
+            add_modifier = {
+                modifier = wear_trait_corruption_chaos
+                days = -1
+            }
+			set_country_flag = flag_trait_corruption_chaos
+        }
+	}
+}

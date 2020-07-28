@@ -1,0 +1,28 @@
+building_golden_throne = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	category = government
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_unification_war
+		}
+	}
+	planet_modifier = {
+		pop_happiness = 0.4
+		planet_stability_add = 40
+		planet_amenities_add = 40
+		job_enforcer_add = 3
+		pop_growth_speed = -0.2
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+			alloys = 5
+		}
+	}
+}

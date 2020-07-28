@@ -1,6 +1,23 @@
 ﻿l_english:
 
  # ###################################
+ # Origin
+ # ###################################
+
+ origin_unification_war:0 "Unification war"
+ origin_unification_war_desc:0 "From these beginnings, the Emperor surrounded himself with genetically modified warriors who would become the Space Marines. These superhuman troops easily gained the upper hand during the Unification Wars, subdued all of their Earthly adversaries and forced the Mars Technopriests to demand peace."
+ origin_unification_war_effects:0 "Start with §YGolden Throne§\n\n"
+
+
+ # ###################################
+ # System
+ # ###################################
+
+ sol_system_initializer_imperium_NAME:0 "System of Imperium"
+ sol_system_initializer_imperium_DESC:0 "The Sol System is made up of 8 planets revolving around the star Sol. It also includes the satellites of these planets, as well as a number of comets and asteroids. All the planets in the system have circular orbits very close to each other, and rotate around Sol counterclockwise. Almost all of them gravitate on the same plane called the ecliptic, and their axis of rotation is almost perpendicular to this plane."
+
+
+ # ###################################
  # Species
  # ###################################
 
@@ -53,19 +70,37 @@
  trait_imperial_fleet_desc:0 "The Imperial Fleet is one of the armed forces employed by the Imperium. While the Imperial Guard is responsible for ground operations, the Imperial Fleet is responsible for fleets and warships that have played the role of operations and communications between the planets of the Imperium, as well as to repel internal and external threats control areas of the Imperium."
 
  trait_fear_technology:0 "Fear of technology"
- trait_fear_technology_desc:0 "After the heresy of Horus, the Imperium of man to stop all technological advances for fear of bringing back chaos within its empire."
+ trait_fear_technology_desc:0 "After the heresy of Horus, the Imperium of man to stop all technological advances for fear of bringing back chaos within its empire.\n\n§WResearch Speed : §R-20%§!\n"
 
  trait_inquisition:0 "Inquisition"
  trait_inquisition_desc:0 "The Inquisition is an organization of the Imperium whose mission is to investigate and eradicate any enemy of the Emperor. Its role is essential for the protection of humanity."
 
  trait_corruption_chaos:0 "Corruption of chaos"
- trait_corruption_chaos_desc:0 "Chaotic, many heretics worship the chaos gods throughout the empire and threaten the stability of the Imperium."
+ trait_corruption_chaos_desc:0 "Chaotic, many heretics worship the chaos gods throughout the empire and threaten the stability of the Imperium.\n\n§W£alloys£Alloys from £job£ Jobs: §R-15%§!\n§W£minerals£Minerals from £job£ Jobs: §R-15%§!\n§W£energy£Energy Credits from £job£ Jobs: §R-15%§!\n§WStabilité: §R-20§!\n"
 
  trait_galactic_empire:0 "Galactic empire"
  trait_galactic_empire_desc:0 "The Imperium is of inconceivable immensity and is particularly sparse, its worlds sometimes being separated by thousands of light years."
 
  trait_isolated_colony:0 "Isolated colony"
- trait_isolated_colony_desc:0 "The numerous storm warp mixed with the war effort of the Imperium and the colossal distances separating each planet from the Imperium slows down the development of this one enormously."
+ trait_isolated_colony_desc:0 "The numerous storm warp mixed with the war effort of the Imperium and the colossal distances separating each planet from the Imperium slows down the development of this one enormously.\n\n§WColony Development Speed : §R-60%§!\n"
+
+
+ # ###################################
+ # Modifier
+ # ###################################
+
+ wear_trait_fear_technology:0 "Fear of technology"
+ wear_trait_fear_technology_desc:0 "After the heresy of Horus, the Imperium of man to stop all technological advances for fear of bringing back chaos within its empire."
+
+ wear_trait_isolated_colony:0 "Isolated colony"
+ wear_trait_isolated_colony_desc:0 "The numerous storm warp mixed with the war effort of the Imperium and the colossal distances separating each planet from the Imperium slows down the development of this one enormously."
+
+ wear_trait_corruption_chaos:0 "Corruption of chaos"
+ wear_trait_inquisition_desc:0 "Chaotic, many heretics worship the chaos gods throughout the empire and threaten the stability of the Imperium."
+
+ planet_mars:0 "Adeptus Mechanicus"
+ planet_mars_desc:0 ""
+
 
  # ###################################
  # Tech
@@ -84,11 +119,53 @@
  tech_intensive_training_4_desc:0 ""
 
  tech_space_marines:0 "Space Marines"
- tech_space_marines_desc:0 "The genetic technology of the Imperium allows the creation of genetically modified warriors including the genome and based on that of the primarchs."
+ tech_space_marines_desc:0 "Space Marines are the supreme warriors of the Imperium. They are supermen, genetically modified to become exceptional fighters, as distant from man as steel is from clay, they are immeasurably stronger and more robust than ordinary human beings."
+
+ tech_ultramarines:0 "Ultramarines"
+ tech_ultramarines_desc:0 "Ultramarines are powerful warriors and excellent tacticians. They are all both crusaders and protectors who embody the perfection of Space Marines, not only by their acts of bravery, but also by their strict respect for the precepts of the Codex Astartes."
+
+ tech_military_equipment_1:0 "Military equipment I"
+ tech_military_equipment_1_desc:0 ""
+
+ tech_military_equipment_2:0 "Military equipment II"
+ tech_military_equipment_2_desc:0 ""
+
+ tech_military_equipment_3:0 "Military equipment III"
+ tech_military_equipment_3_desc:0 ""
+
+ tech_military_equipment_4:0 "Military equipment IV"
+ tech_military_equipment_4_desc:0 ""
+
+ tech_military_equipment_5:0 "Military equipment V"
+ tech_military_equipment_5_desc:0 ""
+
+ tech_military_equipment_6:0 "Military equipment VI"
+ tech_military_equipment_6_desc:0 ""
+
+ tech_military_equipment_7:0 "Military equipment VII"
+ tech_military_equipment_7_desc:0 ""
+
+ tech_military_equipment_8:0 "Military equipment VIII"
+ tech_military_equipment_8_desc:0 ""
+
+ tech_military_equipment_9:0 "Military equipment IX"
+ tech_military_equipment_9_desc:0 ""
+
+
+ # ###################################
+ # Buildings
+ # ###################################
+
+ building_golden_throne:0 "Golden Throne"
+ building_golden_throne_desc:0 ""
+
 
  # ###################################
  # Armies
  # ###################################
 
  space_marines:0 "Space Marines"
- space_marines_desc:0 "Adeptus Astartes space marines are the most powerful human beings in the galaxy."
+ space_marines_desc:0 "Space Marines are the supreme warriors of the Imperium. They are supermen, genetically modified to become exceptional fighters, as distant from man as steel is from clay, they are immeasurably stronger and more robust than ordinary human beings."
+
+ ultramarines:0 "Ultramarines"
+ ultramarines_desc:0 "Ultramarines are powerful warriors and excellent tacticians. They are all both crusaders and protectors who embody the perfection of Space Marines, not only by their acts of bravery, but also by their strict respect for the precepts of the Codex Astartes."

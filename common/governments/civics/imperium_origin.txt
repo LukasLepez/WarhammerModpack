@@ -1,0 +1,15 @@
+origin_unification_war = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origin_unification_war.dds"
+	picture = GFX_origin_unification_war
+	description = origin_unification_war_effects
+	possible = {
+		species = {
+			value = IMPERIUM
+		}
+	}
+	initializers = {
+		sol_system_initializer_imperium
+	}
+	habitability_preference = pc_continental
+}

@@ -1,0 +1,27 @@
+# Triggers when the game starts
+on_game_start = {
+	events = {	
+		warhammer_traits.1
+		warhammer_traits.2
+		warhammer_traits.3
+	}
+}
+
+on_modification_complete = {
+	events = {	
+		warhammer_traits.1
+		warhammer_traits.2
+		warhammer_traits.3
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		warhammer_traits.1
+		warhammer_traits.2
+		warhammer_traits.3
+		warhammer_traits_rem.1
+		warhammer_traits_rem.2
+		warhammer_traits_rem.3
+	}
+}

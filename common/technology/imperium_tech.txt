@@ -3,7 +3,7 @@ tech_intensive_training_1 = {
 	area = society
 	category = { military_theory }
 	tier = 1
-	weight = @tier1weight3
+	weight = @tier3weight3
 
 	modifier = {
 		army_attack_damage_mult = 0.05
@@ -44,8 +44,9 @@ tech_intensive_training_2 = {
 	prerequisites = {
 		"tech_intensive_training_1"
 	}
-	tier = 1
-	weight = @tier2weight3
+	
+	tier = 2
+	weight = @tier4weight2
 
 	modifier = {
 		army_attack_damage_mult = 0.1
@@ -86,12 +87,12 @@ tech_intensive_training_3 = {
 	prerequisites = {
 		"tech_intensive_training_2"
 	}
-	tier = 1
-	weight = @tier3weight3
+	tier = 2
+	weight = @tier4weight3
 
 	modifier = {
-		army_attack_damage_mult = 0.2
-		army_morale = 0.2
+		army_attack_damage_mult = 0.15
+		army_morale = 0.15
 	}
 	
 	weight_modifier = {
@@ -126,14 +127,14 @@ tech_intensive_training_4 = {
 	area = society
 	category = { military_theory }
 	prerequisites = {
-		"tech_intensive_training_2"
+		"tech_intensive_training_3"
 	}
-	tier = 1
+	tier = 2
 	weight = @tier4weight3
 
 	modifier = {
-		army_attack_damage_mult = 0.4
-		army_morale = 0.4
+		army_attack_damage_mult = 0.2
+		army_morale = 0.2
 	}
 	
 	weight_modifier = {
@@ -168,12 +169,373 @@ tech_space_marines = {
 	area = society
 	category = { military_theory }
 	prerequisites = {
-		"tech_intensive_training_3"
+		"tech_intensive_training_4"
 	}
-	tier = 1
-	weight = @tier5weight3
+	is_rare = yes
+	tier = 3
+	weight = 5
 
 	modifier = {
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_ultramarines = {
+	cost = 60000
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_space_marines"
+	}
+	is_rare = yes
+	tier = 4
+	weight = 1
+
+	modifier = {
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_1 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_space_marines"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		army_attack_damage_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_2 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_1"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		army_attack_health_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_3 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_2"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		army_defense_damage_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_4 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_3"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		army_defense_health_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_5 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_4"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		ship_fire_rate_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_6 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_5"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		country_naval_cap_add = 30
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_7 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_6"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		country_command_limit_add = 20
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_8 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_7"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		country_starbase_capacity_add = 2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	# ai_weight = {
+	# 	factor = 80
+	# 	modifier = {
+	# 		factor = 1
+	# 		research_leader = {
+	# 			area = society
+	# 			has_trait = "leader_trait_expertise_military_theory"
+	# 		}
+	# 	}
+	# }
+}
+
+tech_military_equipment_9 = {
+	cost = @repeatableTechBaseCost
+	area = society
+	category = { military_theory }
+	prerequisites = {
+		"tech_military_equipment_8"
+	}
+	tier = @repeatableTechTier
+	weight = @tier5weight1
+
+	modifier = {
+		starbases_upkeep_mult = -0.15
 	}
 	
 	weight_modifier = {

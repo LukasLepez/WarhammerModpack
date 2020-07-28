@@ -1,5 +1,5 @@
 on_press_begin = {
 	events = {
-		begins_events.00
+		begins_events.00 # Imperium ruler
 	}
 }

@@ -10,7 +10,84 @@
 ##############################################################
 ### Settings for character portrait
 portraits = {
-	imperium = {
+	emperor = {
 		texturefile = "gfx/models/portraits/emperor_of_man.dds"
+		hair_selector = human_male_hair_01
+		clothes_selector = mammalian_human_male_clothes_01
+	}
+}
+
+portrait_groups = {
+	imperium = {
+		default = human_male_01
+		game_setup = {
+			add = {
+				portraits = {
+					emperor
+				}
+			}
+		}
+		#species scope
+		species = {
+			#generic portrait for a species
+			add = {
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
+					human_female_05
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+		#pop scope
+		pop = {
+			#for a specific pop
+			add = {
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
+					human_female_05
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+		#leader scope
+		leader = {
+			#scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
+					human_female_05
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					emperor
+				}
+			}
+		}
 	}
 }

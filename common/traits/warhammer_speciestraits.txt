@@ -12,14 +12,17 @@ trait_immortal = {
 	allowed_archetypes = {
 		IMPERIUM
 	}
+	hide_age = yes
 	modifier = {
 		ruler_skill_levels = 5
 	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
 }
 
 trait_imperial_guard = {
 	cost = 1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_warrior_culture.dds"
@@ -36,7 +39,7 @@ trait_imperial_guard = {
 
 trait_imperial_fleet = {
 	cost = 1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_warrior_culture.dds"
@@ -54,7 +57,7 @@ trait_imperial_fleet = {
 
 trait_inquisition = {
 	cost = 1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_citizen_service.dds"
@@ -77,7 +80,7 @@ trait_inquisition = {
 
 trait_galactic_empire = {
 	cost = 1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_efficient_bureaucracy.dds"
@@ -91,13 +94,13 @@ trait_galactic_empire = {
 		always = yes
 	}
 	modifier = {
-		country_claim_influence_cost_mult = -0.50
+		country_starbase_influence_cost_mult = -0.50
 	}
 }
 
 trait_war_effort = {
 	cost = 1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/governments/civics/civic_corvee_system.dds"
@@ -116,21 +119,18 @@ trait_war_effort = {
 
 trait_fear_technology = {
 	cost = -1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/traits/trait_slow_learners.dds"
 	allowed_archetypes = {
 		IMPERIUM
 	}
-	modifier = {
-		all_technology_research_speed = -0.2
-	}
 }
 
 trait_corruption_chaos = {
 	cost = -1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/traits/trait_unruly.dds"
@@ -147,17 +147,17 @@ trait_corruption_chaos = {
 		trait_war_effort
 		trait_inquisition
 	}
-	modifier = {
-		planet_jobs_alloys_produces_mult = -0.2
-		planet_jobs_minerals_produces_mult = -0.2
-		planet_jobs_energy_produces_mult = -0.2
-		planet_stability_add = -20
-	}
+	# modifier = {
+	# 	planet_jobs_alloys_produces_mult = -0.15
+	# 	planet_jobs_minerals_produces_mult = -0.15
+	# 	planet_jobs_energy_produces_mult = -0.15
+	# 	planet_stability_add = -20
+	# }
 }
 
 trait_isolated_colony = {
 	cost = -1
-	modification = no
+	modification = yes
 	randomized = no
 	initial = yes
 	icon = "gfx/interface/icons/traits/trait_solitary.dds"
@@ -169,8 +169,5 @@ trait_isolated_colony = {
 	}
 	species_possible_remove = {
 		always = yes
-	}
-	modifier = {
-		planet_colony_development_speed_mult = -0.6
 	}
 }

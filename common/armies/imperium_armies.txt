@@ -3,9 +3,9 @@ space_marines = {
 	health = 10
 	morale_damage = 2.00
 	has_morale = no
-	collateral_damage = 3.00
+	collateral_damage = 2.00
 	war_exhaustion = 5.00
-	time = 300
+	time = 100
 	icon_frame = 2
 	prerequisites = { "tech_space_marines" }
 	resources = {
@@ -25,6 +25,44 @@ space_marines = {
 			rare_crystals = 1
 			exotic_gases = 1
 			volatile_motes = 1
+		}
+	}
+
+	show_tech_unlock_if = {
+		has_ethic = ethic_fanatic_xenophobe
+		has_ethic = ethic_militarist
+		has_authority = auth_imperial
+		has_trait = trait_immortal
+	}
+}
+
+ultramarines = {
+	damage = 12
+	health = 15
+	morale_damage = 4.00
+	has_morale = no
+	collateral_damage = 4.00
+	war_exhaustion = 7.00
+	time = 150
+	icon_frame = 2
+	prerequisites = { "tech_ultramarines" }
+	resources = {
+		category = armies
+		cost = {
+			society_research = 7000
+			energy = 300
+			alloys = 700
+			minerals = 700
+			rare_crystals = 700
+			exotic_gases = 700
+			volatile_motes = 700
+		}
+
+		upkeep = {
+			energy = 15
+			rare_crystals = 3
+			exotic_gases = 3
+			volatile_motes = 3
 		}
 	}
 

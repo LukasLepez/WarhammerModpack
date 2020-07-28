@@ -1,32 +1,18 @@
 namespace = begins_events
-
 country_event = {
 	id = begins_events.00
 	hide_window = yes
-	
 	is_triggered_only = yes
-
-	immediate = {
-		every_country = {
-			limit = { is_ai = no }
-			country_event = { id = begins_events.01 }
-		}
-	}
-}
-
-country_event = {
-	id = begins_events.01
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
 	immediate = {
 		if = {
-			limit = { 
-				has_trait = trait_immortal
+			limit = {
+				is_species_class = IMPERIUM
+				is_ai = no
 			}
 			every_owned_leader = {
-				limit = { leader_class = ruler }
+				limit = {
+					leader_class = ruler
+				}
 				remove_trait = trait_ruler_architectural_sense
 				remove_trait = trait_ruler_battleship_focus
 				remove_trait = trait_ruler_champion_of_the_people
@@ -59,9 +45,23 @@ country_event = {
 				remove_trait = leader_trait_resilient
 			}
 			leader = {
-				add_experience = 18000
-				add_trait = trait_ruler_expansionist
+				add_trait = trait_immortal
 				add_trait = trait_ruler_military_pioneer
+			}
+			every_owned_planet = {
+				limit = {
+					is_homeworld = yes
+				}
+				add_building = building_golden_throne
+				while = {
+					count = 2
+					random_pop = {
+						limit = {
+							has_job = unemployed
+						}
+						kill_pop = yes
+					}
+				}
 			}
 		}
 	}

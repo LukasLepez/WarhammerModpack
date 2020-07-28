@@ -29,3 +29,47 @@ song = {
 song = {
 	name = "For The Glory Of The Emporer"
 }
+
+song = {
+	name = "Children of the Omnissiah"
+}
+
+song = {
+	name = "Caestus Metalican"
+}
+
+song = {
+	name = "Lost Civilisations"
+}
+
+song = {
+	name = "Immortal Machine"
+}
+
+song = {
+	name = "Noosphere"
+}
+
+song = {
+	name = "Dance of the Cryptek"
+}
+
+song = {
+	name = "Millennial Rage"
+}
+
+song = {
+	name = "Warriors of Mars"
+}
+
+song = {
+	name = "Treacherous 1"
+}
+
+song = {
+	name = "Overlord"
+}
+
+song = {
+	name = "Binary Signal"
+}

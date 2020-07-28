@@ -45,3 +45,69 @@ music = {
 	file = "08-For-The-Glory-Of-The-Emporer.ogg"
 	volume = 0.5
 }
+
+music = {
+	name = "Children of the Omnissiah"
+	file = "09-Children-of-the-Omnissiah.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Caestus Metalican"
+	file = "10-Caestus-Metalican.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Lost Civilisations"
+	file = "11-Lost-Civilisations.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Immortal Machine"
+	file = "12-Immortal-Machine.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Noosphere"
+	file = "13-Noosphere.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Dance of the Cryptek"
+	file = "14-Dance-of-the-Cryptek.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Millennial Rage"
+	file = "15-Millennial-Rage.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Warriors of Mars"
+	file = "16-Warriors-of-Mars.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Treacherous 1"
+	file = "17-Treacherous_1.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Overlord"
+	file = "18-Overlord.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Binary Signal"
+	file = "19-Binary-Signal.ogg"
+	volume = 0.5
+}
