@@ -14,7 +14,7 @@
  # ###################################
 
  sol_system_initializer_imperium_NAME:0 "Système de l'Imperium"
- sol_system_initializer_imperium_DESC:0 "Le Système Sol est composé de 8 planètes tournant autour de l'étoile Sol. Il inclut également les satellites de ces planètes, ainsi qu'un certain nombre de comètes et d'astéroïdes. Toutes les planètes du système ont des orbites circulaires très proches les unes des autres, et tournent autour de Sol dans le sens inverse des aiguilles d'une montre. Toutes ou presque gravitent sur un même plan appelé écliptique, et leur axe de rotation est presque perpendiculaire à ce plan."
+ sol_system_initializer_imperium_DESC:0 "Ce système sera toujours le système natal de l'§Y$IMPERIUM$§! et n'est disponible que si vous possédez l'origine §Y$origin_unification_war$§!"
 
 
  # ###################################
@@ -157,16 +157,32 @@
  # Buildings
  # ###################################
 
- building_golden_throne:0 "Trône d'Or"
- building_golden_throne_desc:0 ""
+ building_golden_throne_destroyed:0 "Trône d'Or détruit"
+ building_golden_throne_destroyed_desc:0 "Après plusieurs millénaires passés sur le Trône d'or, l'empereur semble faiblir. La grande majorité des composants du trône ne fonctionne plus, la technologie est si ancienne et avancée que même les plus grands techno-prêtres de l'Adeptus Mechanicus ne savent comment les réparer. Le temps presse si le trône n'est pas réparé rapidement, l'empereur ne survivra pas et l'Imperium non plus."
+
+ building_damaged_golden_throne:0 "Trône d'Or endommagé"
+ building_damaged_golden_throne_desc:0 "L'Adeptus Mechanicus est parvenue à réparer une majorité des composants du trône, mais cela aux prix de milliers de planètes car afin d'accélérer les recherches la majorité des techno-prêtres répartie à travers les vaisseaux et les fronts de guerres de l'Imperium ont étaient réquisitionné sur Terra. Certaines rumeurs circulent même disant que les signes vitaux de l'empereur semblent s'améliorer. Peut-être est-il possible de le soigner en améliorant le trône..."
+
+ building_golden_throne_restored:0 "Trône d'Or restauré"
+ building_golden_throne_restored_desc:0 "Après des efforts et des sacrifices innombrables, le Trône d’or à était amélioré et les signes vitaux de l’empereur s’améliorent. Ce n’est qu’une question de temps avant qu’il ne soit totalement soigné. L’Imperium va enfin retrouver sa gloire d’antan."
+
+ building_emperors_laboratory:0 "Laboratoire de l'empereur"
+ building_emperors_laboratory_desc:0 "Le laboratoire de l'empereur est sans doute le lieu le plus avancé technologiquement de tout l'Imperium. C'est dans ce lieu sacré qu'il a conçu les premiers chapitres de Space Marines. Plusieurs millénaires plus tard le laboratoire fut rénové et va pouvoir aider à la conception de nouveaux chapitres bien plus puissants que leurs prédécesseurs afin d'aider l'Imperium en cette époque sombre."
 
 
  # ###################################
  # Armies
  # ###################################
 
- space_marines:0 "Space Marines"
- space_marines_desc:0 "Les Space Marines sont les guerriers suprêmes de l'Imperium. Ce sont des surhommes, modifiés génétiquement pour devenir des combattants d'exception, aussi éloigné de l'homme que l'acier l'est de l'argile, ils sont incommensurablement plus forts et plus robustes que des êtres humains ordinaires."
+ space_marines_army:0 "Space Marines"
+ space_marines_army_desc:0 "Les Space Marines sont les guerriers suprêmes de l'Imperium. Ce sont des surhommes, modifiés génétiquement pour devenir des combattants d'exception, aussi éloigné de l'homme que l'acier l'est de l'argile, ils sont incommensurablement plus forts et plus robustes que des êtres humains ordinaires."
+ ultramarines_army:0 "Ultramarines"
+ ultramarines_army_desc:0 "Les Ultramarines sont de puissants guerriers et d'excellents tacticiens. Ce sont tous à la fois des croisés et des protecteurs qui incarnent la perfection des Space Marines, non seulement par leurs actes de bravoure, mais aussi par leur stricte respect des préceptes du Codex Astartes."
 
- ultramarines:0 "Ultramarines"
- ultramarines_desc:0 "Les Ultramarines sont de puissants guerriers et d'excellents tacticiens. Ce sont tous à la fois des croisés et des protecteurs qui incarnent la perfection des Space Marines, non seulement par leurs actes de bravoure, mais aussi par leur stricte respect des préceptes du Codex Astartes."
+
+ # ###################################
+ # Require message
+ # ###################################
+
+ requires_building_golden_throne_destroyed:0 "§RNécessite le §Y$building_golden_throne_destroyed$§! sur la planète.§!"
+ requires_building_damaged_golden_throne:0 "§RNécessite le §Y$building_damaged_golden_throne$§! sur la planète.§!"

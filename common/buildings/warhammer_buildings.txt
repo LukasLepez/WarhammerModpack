@@ -1,9 +1,10 @@
-building_golden_throne = {
+building_golden_throne_destroyed = {
 	capital = yes
 	can_build = no
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
+	add_to_first_building_slot = yes
 	category = government
 	potential = {
 		exists = owner
@@ -11,6 +12,9 @@ building_golden_throne = {
 			has_origin = origin_unification_war
 		}
 	}
+	upgrades = {
+        building_damaged_golden_throne
+    }
 	planet_modifier = {
 		pop_happiness = 0.4
 		planet_stability_add = 40
@@ -24,5 +28,124 @@ building_golden_throne = {
 			energy = 5
 			alloys = 5
 		}
+	}
+}
+
+building_damaged_golden_throne = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	add_to_first_building_slot = yes
+	category = government
+	base_buildtime = 2000	
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_unification_war
+		}
+	}
+	upgrades = {
+        building_golden_throne_restored
+    }
+	planet_modifier = {
+		pop_happiness = 1
+		planet_stability_add = 100
+		planet_amenities_add = 100
+		job_enforcer_add = 6
+	}
+	allow = {
+		num_pops >= 40
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+            minerals = 1000
+			alloys = 1000
+            energy = 10000
+        }
+		upkeep = {
+			energy = 10
+			alloys = 10
+		}
+	}
+}
+
+building_golden_throne_restored = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	add_to_first_building_slot = yes
+	category = government
+	base_buildtime = 5000	
+	potential = {
+		exists = owner
+		owner = {
+			has_origin = origin_unification_war
+		}
+	}
+	planet_modifier = {
+		pop_happiness = 2
+		planet_stability_add = 200
+		planet_amenities_add = 200
+		job_enforcer_add = 20
+		pop_growth_speed = 2
+	}
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+            minerals = 10000
+			alloys = 10000
+            energy = 50000
+        }
+		upkeep = {
+			energy = 200
+			alloys = 100
+		}
+	}
+}
+
+building_emperors_laboratory = {
+	base_buildtime = 2000
+	base_cap_amount = 1
+	category = army
+	potential = {
+		exists = owner
+		owner = {
+			AND = {
+				has_origin = origin_unification_war
+				has_technology = tech_space_marines
+			}
+		}
+	}
+	planet_modifier = {
+		planet_army_build_speed_mult = 1
+		army_starting_experience_add = 1000
+	}
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 5000
+			alloys = 5000
+			energy = 25000
+		}
+		upkeep = {
+			energy = 100
+		}
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+		}
+		text = job_high_priest_effect_desc
 	}
 }

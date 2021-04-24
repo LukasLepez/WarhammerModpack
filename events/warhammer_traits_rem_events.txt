@@ -10,10 +10,8 @@ event = {
     immediate = {
         every_country = {
             limit = {
-				AND = {
-					has_country_flag = flag_trait_isolated_colony
-					NOT = {has_trait = trait_isolated_colony }
-				}
+                has_country_flag = flag_trait_isolated_colony
+                NOT = {has_trait = trait_isolated_colony }
             }
             remove_modifier =  wear_trait_isolated_colony
 			remove_country_flag = flag_trait_isolated_colony
@@ -29,10 +27,8 @@ event = {
     immediate = {
         every_country = {
             limit = {
-				AND = {
-					has_country_flag = flag_trait_fear_technology
-					NOT = {has_trait = trait_fear_technology }
-				}
+                has_country_flag = flag_trait_fear_technology
+                NOT = {has_trait = trait_fear_technology }
             }
             remove_modifier =  wear_trait_fear_technology
 			remove_country_flag = flag_trait_fear_technology
@@ -48,10 +44,8 @@ event = {
     immediate = {
         every_country = {
             limit = {
-				AND = {
-					has_country_flag = flag_trait_corruption_chaos
-					NOT = {has_trait = trait_corruption_chaos }
-				}
+                has_country_flag = flag_trait_corruption_chaos
+                NOT = {has_trait = trait_corruption_chaos }
             }
             remove_modifier =  wear_trait_corruption_chaos
 			remove_country_flag = flag_trait_corruption_chaos

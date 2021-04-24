@@ -156,16 +156,41 @@
  # Buildings
  # ###################################
 
- building_golden_throne:0 "Golden Throne"
- building_golden_throne_desc:0 ""
+ building_golden_throne_destroyed:0 "Golden Throne destroyed"
+ building_golden_throne_destroyed_desc:0 "After several millennia on the Golden Throne, the emperor seems to be faltering. The vast majority of the components of the throne no longer work, the technology is so old and advanced that even the greatest techno-priests of the Adeptus Mechanicus do not know how to repair them. Time is running out if the throne is not repaired quickly, the Emperor will not survive and neither will the Imperium."
+
+ building_damaged_golden_throne:0 "Damaged Golden Throne"
+ building_damaged_golden_throne_desc:0 "The Adeptus Mechanicus succeeded in repairing a majority of the components of the throne, but this at the cost of thousands of planets because in order to accelerate the research the majority of the techno-priests distributed across the ships and the warfronts of the Imperium were requisitioned on Terra. There are even rumors circulating that the Emperor's vital signs appear to be improving. Perhaps it is possible to cure it by upgrading the throne ..."
+
+ building_golden_throne_restored:0 "Golden Throne restored"
+ building_golden_throne_restored_desc:0 "After countless efforts and sacrifices, the Golden Throne has improved and the Emperor's vital signs are improving. It is only a matter of time before he is fully healed. The Imperium will finally regain its former glory."
+
+ building_emperors_laboratory:0 "Emperor's laboratory"
+ building_emperors_laboratory_desc:0 "The Emperor's Laboratory is arguably the most technologically advanced place in the entire Imperium. It is in this sacred place that he conceived the first chapters of Space Marines. Several millennia later the laboratory was renovated and will be able to help design new chapters much more powerful than their predecessors to help the Imperium in this dark time."
 
 
  # ###################################
  # Armies
  # ###################################
 
- space_marines:0 "Space Marines"
- space_marines_desc:0 "Space Marines are the supreme warriors of the Imperium. They are supermen, genetically modified to become exceptional fighters, as distant from man as steel is from clay, they are immeasurably stronger and more robust than ordinary human beings."
+ space_marines_army:0 "Space Marines"
+ space_marines_army_desc:0 "Space Marines are the supreme warriors of the Imperium. They are supermen, genetically modified to become exceptional fighters, as distant from man as steel is from clay, they are immeasurably stronger and more robust than ordinary human beings."
 
- ultramarines:0 "Ultramarines"
- ultramarines_desc:0 "Ultramarines are powerful warriors and excellent tacticians. They are all both crusaders and protectors who embody the perfection of Space Marines, not only by their acts of bravery, but also by their strict respect for the precepts of the Codex Astartes."
+ ultramarines_army:0 "Ultramarines"
+ ultramarines_army_desc:0 "Ultramarines are powerful warriors and excellent tacticians. They are all both crusaders and protectors who embody the perfection of Space Marines, not only by their acts of bravery, but also by their strict respect for the precepts of the Codex Astartes."
+
+
+ # ###################################
+ # Require message
+ # ###################################
+
+ requires_building_golden_throne_destroyed:0 "§RRequires §Y$building_golden_throne_destroyed$§! on planet.§!"
+ requires_building_damaged_golden_throne:0 "§RRequires §Y$building_damaged_golden_throne$§! on planet.§!"
+ 
+ 
+ ####################################
+ # Technology View
+ ####################################
+
+ TECH_UNLOCK_ARMY:0 "§HUnlocks Army:§! $NAME$"
+ TECH_UNLOCK_ARMY_ATTACHMENT:0 "§HUnlocks Attachment:§! $NAME$"

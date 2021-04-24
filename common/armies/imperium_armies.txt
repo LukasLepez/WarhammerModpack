@@ -1,4 +1,4 @@
-space_marines = {
+space_marines_army = {
 	damage = 8
 	health = 10
 	morale_damage = 2.00
@@ -27,16 +27,9 @@ space_marines = {
 			volatile_motes = 1
 		}
 	}
-
-	show_tech_unlock_if = {
-		has_ethic = ethic_fanatic_xenophobe
-		has_ethic = ethic_militarist
-		has_authority = auth_imperial
-		has_trait = trait_immortal
-	}
 }
 
-ultramarines = {
+ultramarines_army = {
 	damage = 12
 	health = 15
 	morale_damage = 4.00
@@ -50,7 +43,7 @@ ultramarines = {
 		category = armies
 		cost = {
 			society_research = 7000
-			energy = 300
+			energy = 2500
 			alloys = 700
 			minerals = 700
 			rare_crystals = 700
@@ -64,12 +57,5 @@ ultramarines = {
 			exotic_gases = 3
 			volatile_motes = 3
 		}
-	}
-
-	show_tech_unlock_if = {
-		has_ethic = ethic_fanatic_xenophobe
-		has_ethic = ethic_militarist
-		has_authority = auth_imperial
-		has_trait = trait_immortal
 	}
 }

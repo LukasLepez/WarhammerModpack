@@ -1,0 +1,18 @@
+has_upgraded_capital = {
+	custom_tooltip = {
+		fail_text = "requires_building_golden_throne_destroyed"
+		OR = {
+			has_building = building_golden_throne_destroyed
+			has_building = building_damaged_golden_throne
+		}
+	}
+}
+
+has_major_upgraded_capital = {
+	custom_tooltip = {
+		fail_text = "requires_building_damaged_golden_throne"
+		OR = {
+			has_building = building_damaged_golden_throne
+		}
+	}
+}

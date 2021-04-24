@@ -52,7 +52,7 @@ country_event = {
 				limit = {
 					is_homeworld = yes
 				}
-				add_building = building_golden_throne
+				add_building = building_golden_throne_destroyed
 				while = {
 					count = 2
 					random_pop = {
