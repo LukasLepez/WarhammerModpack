@@ -49,19 +49,16 @@ country_event = {
 				add_trait = trait_ruler_military_pioneer
 			}
 			every_owned_planet = {
-				limit = {
-					is_homeworld = yes
-				}
 				add_building = building_golden_throne_destroyed
-				while = {
-					count = 2
-					random_pop = {
-						limit = {
-							has_job = unemployed
-						}
-						kill_pop = yes
-					}
-				}
+				# while = {
+				# 	count = 2
+				# 	random_owned_pop = {
+				# 		limit = {
+				# 			has_job = unemployed
+				# 		}
+				# 		kill_pop = yes
+				# 	}
+				# }
 			}
 		}
 	}
